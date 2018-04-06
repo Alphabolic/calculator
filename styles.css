@@ -1,0 +1,109 @@
+.root{
+  text-align: center;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+.container{
+  height: 400px;
+  padding: 10px;
+  width: 296px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 25px 80px 45px 45px 45px 45px 45px;
+  grid-gap:10px;
+  margin: auto;
+  background-color:  #b3ecff;
+}
+.Btns {
+  background-color: #ffcc00;
+}
+div{
+  border: 1px solid black;
+}
+#heading{
+  grid-column: span 4;
+  background: linen;
+}
+#dot{
+  background-color: #ffcc00;
+}
+
+#screen{
+  background: linen;
+  grid-column: span 4;
+  height: 70px;
+}
+#equals{
+  grid-column: span 2;
+  background-color: #ffcc00;
+  text-align: center;
+}
+
+#zero{
+  grid-row: span 2;
+background-color: #ffcc00;
+}
+#ac{
+  background-color: #ffcc00;
+}
+
+
+
+#ce{
+  background-color: #ffcc00;
+}
+
+#divide{
+  background-color: #ffcc00;
+}
+
+#mult{
+  background-color: #ffcc00;
+}
+#btn7{
+  background-color: #ffcc00;
+}
+#btn8{
+  background-color: #ffcc00;
+}
+#btn9{
+  background-color: #ffcc00;
+}
+#minus{
+  background-color: #ffcc00;
+}
+#plus{
+  background-color: #ffcc00;
+}
+#btn4{
+  background-color: #ffcc00;
+}
+#btn5{
+  background-color: #ffcc00;
+}
+#btn6{
+  background-color: #ffcc00;
+}
+#btn1{
+  background-color: #ffcc00;
+}
+#btn2{
+  background-color: #ffcc00;
+}
+#btn3{
+  background-color: #ffcc00;
+}
+#equals{
+  background-color: #ffcc00;
+}
+#btn{
+  background-color: #ffcc00;
+}
